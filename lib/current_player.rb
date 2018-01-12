@@ -1,10 +1,8 @@
 def turn_count(board)
-  counter = 0
+  counter = 1
   board.each{|loc| 
     if (loc == "X") || (loc == "O")
       counter +=1
-    else
-      return
     end
   }
   return counter
