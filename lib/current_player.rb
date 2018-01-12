@@ -3,6 +3,8 @@ def turn_count(board)
   board.each{|loc| 
     if (loc == "X") || (loc == "O")
       counter +=1
+    else
+      return
     end
   }
   return counter
