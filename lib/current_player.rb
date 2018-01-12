@@ -1,13 +1,14 @@
 def turn_count(board)
-  sum = 0
+  counter = 0
   board.each{|loc| 
     if loc == ("X" || "O")
-      sum +=1
+      counter +=1
     end
   }
   return sum
 end
 
 def current_player(board)
+  if turn_count(board) ==
   
 end
